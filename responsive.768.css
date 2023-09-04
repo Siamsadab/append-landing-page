@@ -1,0 +1,121 @@
+@media only screen and (max-width: 768px){
+    .mt-mi{
+        margin-top: 0px;
+    }
+    .stats-item {
+        padding: 30px;
+    }
+    .feas{
+        max-width: 540px;
+    }
+    .hero-cont h1 {
+        margin: 0;
+        font-size: 32px;
+        font-weight: 700;
+        color: aliceblue;
+    }
+
+    .port-img-one{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .port-img-two{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+        
+    }
+    .port-img-three{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-four {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-five{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-six {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-seven{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-eight{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-nine {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-five{
+        position:relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .port-img-two {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+
+    }
+    .all-img{
+          margin: 0px;
+          flex-direction: column;
+    }
+    .cc{
+      position: relative;
+    }
+    #pricing{
+        margin-top: -1270px;
+    }
+
+    .fea {
+        max-width: 530px !important;
+    }
+    .feas {
+        max-width: 540px !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 576px){
+    
+    .fea{
+        max-width: 720px;
+    }
+}

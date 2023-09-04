@@ -1,0 +1,1178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive1200.css">
+    <link rel="stylesheet" href="responsive.768.css">
+  </head>
+  <body >
+    <!-- try  -->
+    <!-- try -->
+    <main id="header-main">
+        <section >
+            <div class="header d-flex justify-content-between">
+                <div class="logo">
+                    <h1>Append.</h1>
+                </div> 
+                <div class="menu-div">
+                    <ul class="d-flex justify-content-between gap-4">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Portfoilo</li>
+                        <li>Team</li>
+                        <li>Blog</li>
+                        <li>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                  Dropdown
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="buttn-div">
+                    <button>Get Started</button>
+                </div>
+                <div class="mobile-menu">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-list"></i></button>
+                      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"                      aria-labelledby="offcanvasTopLabel">
+                       <div class="offcanvas-header ">
+                         <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"                      aria-label="Close"></button>
+                       </div>
+                       <div class="offcanvas-body w-100 ">
+                        <div class="menus-div  ">
+                            <ul class=" gap-4">
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Portfoilo</li>
+                                <li>Team</li>
+                                <li>Blog</li>
+                                <li>
+                                    <p>
+                                        <a class="btn btn-primary menu-item-btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Dropdown
+                                          <i class="bi bi-caret-down-fill"></i>
+                                        </a>
+                                        <button class="btn btn-primary btn-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                          
+                                        </button>
+                                       
+                                      </p>
+                                      <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                          <ul>
+                                            <li>Dropdown 1</li>
+                                            <li>Dropdown 3</li>
+                                            <li>Dropdown 4</li>
+                                            <li>Dropdown 5</li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                </li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                       </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Hero section start  -->
+    <main id="hero-main">
+        <div class="overlay">
+            <section class="hero d-flex align-items-center">
+                <div class="container fea feas">
+                    <div class="row">
+                        <div class="col-12 hero-cont">
+                            <h1 data-aos="fade-up" data-aos-duration="1100">Welcome to Our Website</h1>
+                            <p data-aos="fade-up" data-aos-duration="1200">We are team of talented designers making websites with Bootstrap</p>
+                            <div class="form-div  " data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200">
+                                <form class="d-flex justify-content-between">
+                                    <label for="email">
+                                        <input  type="email" placeholder="Your Email" name="email" id="email">
+                                    </label>
+                                    <button type="submit" id="sign-btn">Signup</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </div>
+    </main>
+    <!-- Clients Section - Home Page -->
+    <main class="client-main">
+        <section style="overflow: hidden;">
+            <div class="container client-con" data-aos="fade-up" data-aos-duration="1000">
+                <div class="row">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img class="img-fluid" src="./assets/clients/client-1.png">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img class="img-fluid"  src="./assets/clients/client-2.png">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img class="img-fluid"  src="./assets/clients/client-3.png">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img class="img-fluid"  src="./assets/clients/client-4.png">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img class="img-fluid"  src="./assets/clients/client-5.png">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img class="img-fluid"  src="./assets/clients/client-6.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Ducimus rerum libero reprehenderit cumque -->
+    <main id="ducimus-main">
+        <section>
+            <div class="container fea feas">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-5 content" data-aos="fade-up" data-aos-duration="1000">
+                        <h3>About Us</h3>
+                        <h2>Ducimus rerum libero reprehenderit cumque</h2>
+                        <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+                        <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-12 col-xl-7">
+                        <div class="row row-m">
+                            <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="icon-box">
+                                    <i class="bi bi-buildings"></i>
+                                    <h3>Eius provident</h3>
+                                    <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-mi" data-aos="fade-up" data-aos-duration="1000">
+                                <div class="icon-box">
+                                    <i class="bi bi-buildings"></i>
+                                    <h3>Eius provident</h3>
+                                    <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 " data-aos="fade-up" data-aos-duration="1400">
+                                <div class="icon-box ">
+                                    <i class="bi bi-buildings"></i>
+                                    <h3>Eius provident</h3>
+                                    <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-mi" data-aos="fade-up" data-aos-duration="1400">
+                                <div class="icon-box">
+                                    <i class="bi bi-buildings"></i>
+                                    <h3>Eius provident</h3>
+                                    <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- service section start  -->
+    <main class="service-main">
+        <section>
+            <div class="container ">
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                          <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
+                          <p>Clients</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                          <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">521</span>
+                          <p>Projects</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                          <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">1453</span>
+                          <p>Hours Of Support</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                          <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">32</span>
+                          <p>Workers</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Services Section - Home Page -->
+    <main id="service">
+        <section id="services" class="services">
+
+            <!--  Section Title -->
+            <div class="fea feas container section-title aos-init aos-animate text-center" data-aos="fade-up">
+              <h2>Services</h2>
+              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div><!-- End Section Title -->
+      
+            <div class="container fea feas ">
+      
+              <div class="row gy-4">
+      
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Lorem Ipsum</a></h4>
+                      <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Service Item -->
+      
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Dolor Sitema</a></h4>
+                      <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+      
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
+                      <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+      
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Magni Dolores</a></h4>
+                      <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+      
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Nemo Enim</a></h4>
+                      <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+      
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+                  <div class="service-item d-flex">
+                    <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+                    <div>
+                      <h4 class="title"><a href="services-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
+                      <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                  </div>
+                </div><!-- End Service Item -->
+      
+              </div>
+      
+            </div>
+      
+          </section>
+    </main>
+    <!-- Features Section - Home Page -->
+    <main>
+        <section id="features" class="features">
+
+            <!--  Section Title -->
+            <div class="container fea feas section-title aos-init aos-animate text-center" data-aos="fade-up">
+              <h2>Features</h2>
+              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div><!-- End Section Title -->
+      
+            <div class="container fea feas">
+      
+              <div class="row gy-4 align-items-center features-item">
+                <div class="col-lg-5 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                  <h3>Corporis temporibus maiores provident</h3>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+                  <a href="#" class="btn btn-get-started">Get Started</a>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+                  <div class="image-stack">
+                    <img src="assets/features-light-1.jpg" alt="" class="stack-front">
+                    <img src="assets/features-light-2.jpg" alt="" class="stack-back">
+                  </div>
+                </div>
+              </div><!-- Features Item -->
+      
+              <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+                <div class="col-lg-6 d-flex align-items-center features-img-bg aos-init aos-animate" data-aos="zoom-out">
+                  <img src="assets/features-light-3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-5 d-flex justify-content-center flex-column aos-init aos-animate" data-aos="fade-up">
+                  <h3>Sunt consequatur ad ut est nulla</h3>
+                  <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                  <ul>
+                    <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                    <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                    <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+                  </ul>
+                  <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+                </div>
+              </div><!-- Features Item -->
+      
+            </div>
+      
+          </section>
+    </main>
+    <!-- Portfoilo section start -->
+    <main id="portfo-main">
+      <section>
+        <div class="container section-title aos-init aos-animate fea feas text-center" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="container fea feas">
+          <div class="row">
+            <div class="col-12 ">
+              <div class="butns">
+                <ul class="nav justify-content-center nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#all" data-bs-toggle="tab">All</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#app" data-bs-toggle="tab">App</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#card" data-bs-toggle="tab">card</a>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content">
+                  <div id="all" class="active tab-pane fade in show">
+                     <div class="all-img row ">
+                         <div class="port-img-one col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-1.jpg">
+                         </div>
+                         <div class="port-img-two col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-2.jpg">
+                         </div>
+                         <div class="port-img-three col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-3.jpg">
+                         </div>
+                         <div class="port-img-four col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-6.jpg ">
+                         </div>
+                         <div class="port-img-five col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-5.jpg">
+                         </div>
+                         <div class="port-img-six col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-4.jpg">
+                         </div>
+                         <div class="port-img-seven col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-7.jpg">
+                         </div>
+                         <div class="port-img-eight col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-8.jpg">
+                         </div>
+                         <div class="port-img-nine col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="assets/masonry-portfolio/masonry-portfolio-9.jpg">
+                         </div>
+                        
+
+                     </div>
+                  </div>
+                  <div id="app" class="tab-pane fade ">
+                    <h1> products two</h1>
+                 </div>
+                 <div id="card" class="tab-pane fade ">
+                  <h1> products 3</h1>
+               </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Pricing section start  -->
+    <main style="margin-top: 1300px;" id="pice-main">
+      <section id="pricing" class="pricing">
+
+        <!--  Section Title -->
+        <div class="container section-title aos-init aos-animate text-center fea feas" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container aos-init aos-animate fea feas" data-aos="zoom-in" data-aos-delay="100">
+  
+          <div class="row g-4">
+  
+            <div class="col-lg-4">
+              <div class="pricing-item">
+                <h3>Free Plan</h3>
+                <div class="icon">
+                  <i class="bi bi-box"></i>
+                </div>
+                <h4><sup>$</sup>0<span> / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+                <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+              </div>
+            </div><!-- End Pricing Item -->
+  
+            <div class="col-lg-4">
+              <div class="pricing-item featured">
+                <h3>Business Plan</h3>
+                <div class="icon">
+                  <i class="bi bi-rocket"></i>
+                </div>
+  
+                <h4><sup>$</sup>29<span> / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                  <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                  <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+                <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+              </div>
+            </div><!-- End Pricing Item -->
+  
+            <div class="col-lg-4">
+              <div class="pricing-item">
+                <h3>Developer Plan</h3>
+                <div class="icon">
+                  <i class="bi bi-send"></i>
+                </div>
+                <h4><sup>$</sup>49<span> / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                  <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                  <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                </ul>
+                <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+              </div>
+            </div><!-- End Pricing Item -->
+  
+          </div>
+  
+        </div>
+  
+      </section>
+    </main>
+    <!-- Frequently Asked section  -->
+    <main id="faq-main">
+      <section id="faq" class="faq">
+
+        <div class="container fea feas">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="content px-xl-5">
+                
+                <h1 class="fre">Frequently Asked <strong>Questions</strong></h5></h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+  
+              
+                <!-- End Faq item-->
+                <div class="faq-containers">
+                  <div class="d-flex justify-content-between align-items-center padlef" >
+                    <div>
+                      <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                    </div>
+                    <div>
+                      <p class="pbb">
+                        <button class="btn btn-primary pri" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          <i class="faq-toggle fa-solid fa-chevron-down"></i>
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="collapse ml" id="collapseExample">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Faq item-->
+                <div class="faq-containers">
+                  <div class="d-flex justify-content-between align-items-center padlef" >
+                    <div>
+                      <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                    </div>
+                    <div>
+                      <p class="pbb">
+                        <button class="btn btn-primary pri" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplet" aria-expanded="false" aria-controls="collapseExamplet">
+                          <i class="faq-toggle fa-solid fa-chevron-down"></i>
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="collapse ml" id="collapseExamplet">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Faq item-->
+                <div class="faq-containers">
+                  <div class="d-flex justify-content-between align-items-center padlef" >
+                    <div>
+                      <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                    </div>
+                    <div>
+                      <p class="pbb">
+                        <button class="btn btn-primary pri" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampleth" aria-expanded="false" aria-controls="collapseExampleth">
+                          <i class="faq-toggle fa-solid fa-chevron-down"></i>
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="collapse ml" id="collapseExampleth">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Faq item-->
+                <!-- End Faq item-->
+                <div class="faq-containers">
+                  <div class="d-flex justify-content-between align-items-center padlef" >
+                    <div>
+                      <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                    </div>
+                    <div>
+                      <p class="pbb">
+                        <button class="btn btn-primary pri" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplethd" aria-expanded="false" aria-controls="collapseExamplethd">
+                          <i class="faq-toggle fa-solid fa-chevron-down"></i>
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="collapse ml" id="collapseExamplethd">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Faq item-->
+                <div class="faq-containers">
+                  <div class="d-flex justify-content-between align-items-center padlef" >
+                    <div>
+                      <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
+                    </div>
+                    <div>
+                      <p class="pbb">
+                        <button class="btn btn-primary pri" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamplethdl" aria-expanded="false" aria-controls="collapseExamplethdl">
+                          <i class="faq-toggle fa-solid fa-chevron-down"></i>
+                          <i class="bi bi-chevron-down"></i>
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="collapse ml" id="collapseExamplethdl">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Faq item-->
+  
+              </div>
+  
+            </div>
+          </div>
+  
+        </div>
+  
+      </section>
+    </main>
+    <!-- Team sectoion start  -->
+    <main id="main-team">
+      <section id="team" class="team">
+
+        <!--  Section Title -->
+        <div class="container section-title aos-init aos-animate fea feas" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container fea feas">
+  
+          <div class="row gy-5">
+  
+            <div class="col-lg-4 col-md-6 member aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6 member aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6 member aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6 member aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6 member aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+              <div class="member-img">
+                <img src="assets/team/team-5.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Brian Doe</h4>
+                <span>Marketing</span>
+                <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6 member aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/team/team-6.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Josepha Palas</h4>
+                <span>Operation</span>
+                <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+              </div>
+            </div><!-- End Team Member -->
+  
+          </div>
+  
+        </div>
+  
+      </section>
+    </main>
+    <!-- Call To Action  -->
+    <main>
+      <section id="call-to-action" class="call-to-action">
+
+        <img src="assets/cta-bg.jpg" alt="">
+  
+        <div class="container fea feas ">
+          <div class="row justify-content-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Call To Action</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a class="cta-btn" href="#">Call To Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+    </main>
+    <!-- Testimonials section start -->
+    <main id="testo-main">
+      <section>
+        <div class="container fea feas">
+          <div class="row">
+            <div class="col-12 col-lg-6 info">
+              <h3>Testimonials</h3>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 info infos">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo &amp; Founder</h4>
+                          <div class="stars text-start">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-left ki"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo &amp; Founder</h4>
+                          <div class="stars text-start">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-left ki"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo &amp; Founder</h4>
+                          <div class="stars text-start">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-left ki"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo &amp; Founder</h4>
+                          <div class="stars text-start">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-left ki"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img src="assets/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                        <div>
+                          <h3>Saul Goodman</h3>
+                          <h4>Ceo &amp; Founder</h4>
+                          <div class="stars text-start">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-left ki"></i>
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Recent Posts section start  -->
+   <main id="recent-maim">
+    <section id="recent-posts" class="recent-posts">
+
+      <!--  Section Title -->
+      <div class="container fea feas section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Recent Posts</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container fea feas">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/blog/blog-1.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Politics</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Maria Doe</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/blog/blog-2.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Sports</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Allisa Mayer</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <article>
+
+              <div class="post-img">
+                <img src="assets/blog/blog-3.jpg" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Entertainment</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="assets/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Mark Dower</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+
+    </section>
+   </main>
+   <!-- Contact  section start  -->
+   <main id="form-main">
+    <section id="contact fea feas" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title aos-init aos-animate fea feas" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container aos-init aos-animate fea feas" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item aos-init aos-animate" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item aos-init aos-animate" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                  <p>+1 6678 254445 41</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item aos-init aos-animate" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                  <p>contact@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item aos-init aos-animate" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 back">
+            <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section>
+   </main>
+   <!-- footer section start  -->
+   <footer id="footer" class="footer">
+
+    <div class="container footer-top fea feas">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Append</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4 fea feas">
+      <p>© <span>Copyright</span> <strong class="px-1">Append</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- scrool up -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

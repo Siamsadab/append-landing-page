@@ -1,0 +1,262 @@
+@media only screen and (max-width: 1400px){
+    
+    .fea {
+        max-width: 1140px;
+    }
+
+    .port-img-one{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .port-img-two{
+        position: absolute;
+        top: 0px;
+        left: 373px;
+    }
+    .port-img-three{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .port-img-four {
+        position: absolute;
+        top: 373px;
+        left: 0;
+    }
+    .port-img-five{
+        position: absolute;
+        top: 257px;
+        left: 373px;
+    }
+    .port-img-six {
+        position: absolute;
+        top: 220px;
+        right: 0;
+    }
+    .port-img-seven{
+        position: absolute;
+        top: 480px;
+        right: 0;
+    }
+    .port-img-eight{
+        position: absolute;
+        top: 733px;
+        right: 0;
+    }
+    .port-img-nine {
+        position: absolute;
+        top: 800px;
+        right: 373px;
+    }
+    #pricing{
+        margin-top: -180px;
+    }
+    
+   .fea {
+        max-width: 1140px !important;
+    }
+    .feas {
+        max-width: 1140px !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1200px) {
+   .menu-div{
+    display: none;
+   }
+   .mobile-menu{
+    display: block;
+   }
+   .offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    background-color: rgb(255, 255, 255);
+    height: 95%;
+    margin: auto;
+    width: 96%;
+    margin: auto;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    
+}
+#pricing{
+    margin-top: 170px;
+}
+
+
+.fea {
+    max-width: 960px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ffffff;
+    --bs-btn-disabled-border-color: #ffffff;
+}
+.port-img-one{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.port-img-two{
+    position: absolute;
+    top: 0px;
+    left: 313px;
+}
+.port-img-three{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.port-img-four {
+    position: absolute;
+    top: 315px;
+    left: 0;
+}
+.port-img-five{
+    position: absolute;
+    top: 217px;
+    left: 313px;
+}
+.port-img-six {
+    position: absolute;
+    top: 185px;
+    right: 0;
+}
+.port-img-seven{
+    position: absolute;
+    top: 400px;
+    right: 0;
+}
+.port-img-eight{
+    position: absolute;
+    top: 613px;
+    right: 0;
+}
+.port-img-nine {
+    position: absolute;
+    top: 670px;
+    right: 313px;
+}
+.fea {
+    max-width: 960px !important;
+}
+.feas {
+    max-width: 960px !important;
+}
+#pricing{
+    margin-top: -370px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 992px){
+    .px-xl-5 {
+        padding-right: 3rem!important;
+        padding-left: 3rem!important;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    
+    .stats-item {
+        padding: 30px;
+    }
+    .read-more{
+        margin-bottom: 50px;
+    }
+    .feas {
+        max-width: 720px;
+    }
+
+    .port-img-one{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .port-img-two{
+        position: absolute;
+        top: 0;
+        left: 348px;
+    }
+    .port-img-three{
+        position: absolute;
+        right:  0;
+        top: 240px;
+    }
+    .port-img-four {
+        position: absolute;
+        top: 595px;
+         left: 0;
+    }
+    .port-img-five{
+        position: absolute;
+        top: 447px;
+        left:348px;
+    }
+    .port-img-six {
+        position: absolute;
+        top: 355px;
+        left: 0;
+    }
+    .port-img-seven{
+        position: absolute;
+        top: 960px;
+        right: 0;
+    }
+    .port-img-eight{
+        position: absolute;
+        top: 1100px;
+        left: 0;
+    }
+    .port-img-nine {
+        position: absolute;
+        top: 1200px;
+        right: 0;
+    }
+    .all-img{
+          margin: 0px;
+    }
+    .form-div {
+        width: 100%;
+    }
+    .fea {
+        max-width: 720px !important;
+    }
+    .feas {
+        max-width: 720px !important;
+    }
+    #pricing{
+        margin-top: 200px;
+    }
+    
+}
+
+@media only screen and  (min-width: 992px){
+    .pricing .featured {
+        transform: scale(1.15);
+    }
+}
+
